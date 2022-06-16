@@ -1,4 +1,5 @@
 import React from "react";
+import Dictionary from "./dictionary";
 import "./App.css";
 
 function App() {
@@ -6,8 +7,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Dictionary</h1>
-        <button className="btn btn-primary">search</button>
       </header>
+      <Dictionary />
     </div>
   );
 }
