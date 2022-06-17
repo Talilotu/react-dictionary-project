@@ -26,7 +26,7 @@ export default function Dictonary() {
   }
 
   return (
-    <div className="Dictionary">
+    <div className="Dictionary mt-5">
       <form onSubmit={search}>
         <input
           type="search"
