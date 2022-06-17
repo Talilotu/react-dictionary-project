@@ -11,7 +11,11 @@ function App() {
       <Dictionary defaultKeyword="sunset" />
       <footer className="mt-5">
         Coded by{" "}
-        <a href="https://shiny-pie-937396.netlify.app/" target="_blank">
+        <a
+          href="https://shiny-pie-937396.netlify.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
           Akanesi Tohotoa
         </a>
       </footer>
