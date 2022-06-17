@@ -1,5 +1,4 @@
 import React from "react";
-import Definitions from "./Definitions";
 
 export default function Meaning(props) {
   return (
