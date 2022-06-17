@@ -1,6 +1,7 @@
 import React from "react";
 
 export default function Definitions(props) {
+  function handleClick() {}
   if (props.examples) {
     return (
       <div>
@@ -11,6 +12,13 @@ export default function Definitions(props) {
   }
   if (props.synonyms) {
     return <div className="Synonyms">{props.synonyms}</div>;
+  }
+  if (props.audio) {
+    return (
+      <a href={props.audio} target="_blank">
+        Listen
+      </a>
+    );
   } else {
     return null;
   }
