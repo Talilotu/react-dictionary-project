@@ -7,7 +7,7 @@ export default function Dictonary() {
   const [results, setResults] = useState(null);
 
   function handleResponse(response) {
-    console.log(response.data);
+    console.log(response);
     setResults(response.data[0]);
   }
 
