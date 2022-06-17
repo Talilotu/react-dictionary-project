@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function Definitions(props) {
-  function handleClick() {}
   if (props.examples) {
     return (
       <div>
