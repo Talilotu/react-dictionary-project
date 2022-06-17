@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import Results from "./Results";
 
-export default function Dictonary(props) {
+export default function Dictionary(props) {
   const [keyword, setKeyword] = useState(props.defaultKeyword);
   const [results, setResults] = useState(null);
   const [loaded, setLoaded] = useState(false);
