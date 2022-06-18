@@ -20,7 +20,7 @@ export default function Results(props) {
           <h5 className="Synonym">Similar:</h5>
           {props.results.meanings[0].synonyms.map(function (synonym, index) {
             return (
-              <div key={index} className="Synonym d-inline">
+              <div key={index} className="Synonym d-inline-flex">
                 {synonym}
               </div>
             );
@@ -28,7 +28,7 @@ export default function Results(props) {
           <h5 className="Synonym mt-4">Opposite:</h5>
           {props.results.meanings[0].antonyms.map(function (opposite, index) {
             return (
-              <div key={index} className="Synonym d-inline">
+              <div key={index} className="Synonym d-inline-flex">
                 {opposite}
               </div>
             );
