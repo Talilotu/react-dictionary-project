@@ -45,6 +45,7 @@ export default function Dictionary(props) {
               autoFocus={true}
               onChange={handleKeyword}
               defaultValue={props.defaultKeyword}
+              className="form-control"
             />
           </form>
           <p className="mt-3">i.e. paris, wine, yoga, coding</p>
