@@ -1,0 +1,92 @@
+body {
+  background: linear-gradient(
+    109.6deg,
+    rgb(235, 173, 254) 11.2%,
+    rgb(254, 150, 150) 90.4%
+  );
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.App h1 {
+}
+.Dictionary {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.Dictionary section {
+  border-radius: 8px;
+  background: #faf5f7;
+  padding: 40px;
+  box-shadow: 0 10px 10px rgb(0 0 / 10%);
+  margin: 20px 0;
+}
+
+.Dictionary input {
+  display: block;
+  height: 64px;
+  color: #666;
+  font-size: 18px;
+  line-height: 21px;
+  padding: 22px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  width: 100%;
+}
+
+.Dictionary label {
+  font-weight: 600;
+  font-style: normal;
+  font-size: 24px;
+  margin-bottom: 20px;
+  display: block;
+  line-height: 29px;
+}
+
+.Results h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  color: #000;
+}
+
+.Meaning h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.Meaning .definition {
+  font-size: 16px;
+}
+
+.Meaning .example {
+  font-size: 15px;
+  color: #666;
+}
+
+.Phonetic a {
+  color: rgb(207, 85, 238);
+  font-weight: 400;
+  margin-right: 15px;
+  font-size: 15px;
+  line-height: 17px;
+  padding: 8px 18px;
+  border: 1px solid #ddd;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+.Phonetic a:hover {
+  color: #f29bad;
+}
+
+.Phonetic h2 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #666;
+  display: inline;
+}

@@ -4,7 +4,7 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="App text-center mt-5">
+    <div className="App text-start">
       <header className="App-header">
         <h1>Dictionary</h1>
       </header>
