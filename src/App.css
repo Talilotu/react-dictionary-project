@@ -87,29 +87,29 @@ body {
   color: #666;
 }
 
-.Phonetic a {
-  color: rgb(207, 85, 238);
-  font-weight: 400;
+.PhoneticsAudio {
   margin-right: 15px;
-  font-size: 15px;
-  line-height: 17px;
-  padding: 8px 18px;
-  border: 1px solid #ddd;
-  border-radius: 50px;
-  text-decoration: none;
+  display: inline;
+  font-size: 20px;
 }
 
-.Phonetic a:hover {
-  color: #f29bad;
+.PhoneticsAudio .controls {
+  border-radius: 50%;
+  color: #666;
+  background: #f2a2cb;
+  border: none;
+}
+.PhoneticsAudio .controls:hover {
+  background: #edadfb;
 }
 
 .Phonetic h2 {
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 19px;
-  color: #666;
   display: inline;
+  font-weight: 600;
+  font-size: 17px;
+  color: #666;
 }
+
 .Photos img {
   border-radius: 4px;
   margin-bottom: 20px;
